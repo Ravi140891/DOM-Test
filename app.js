@@ -7,9 +7,7 @@ const all = document.querySelector(".all");
 const headphones = document.querySelector(".headphones")
 const mobiles = document.querySelector(".mobiles")
 const laptops = document.querySelector('.laptops');
-let products = [
- 
-];
+let products = [];
 
 const addItem = (e) => {
     if(e.target == addButton){
