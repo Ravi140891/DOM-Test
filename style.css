@@ -60,12 +60,16 @@ section{
     flex-direction: column;
     
 }
+.error{
+    color: red;
+    margin-left: -9rem;
+    display: none;
+}
 .product{
-    max-height: 80%;
+    height: 230px;
     width: 200px;
     border: 1px solid black;
     margin-bottom: .6rem;
-    padding: .3rem;
 }
 .product img{
     width: 100%;
@@ -76,4 +80,11 @@ section{
     border: none;
     padding: 5px 0;
     cursor: pointer;
+}
+.catalog{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    margin-right: 10px;
 }
