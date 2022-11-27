@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Gadgets</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Filterable Gallery</h1>
+        </header>
+        <main>
+            <h3>Add Product</h3>
+            <form action="">
+                <label for="input">Enter Image URL</label>
+                <input type="text" name="input" id="">
+                <label for="select">Select Type</label>
+                <select name="select" id="">
+                    <option value="headphone">Headphone</option>
+                    <option value="mobile">Mobile</option>
+                    <option value="laptop">Laptop</option>
+                </select>
+                <input type="button" value="Add" class="btn add-btn">
+            </form>
+        </main>
+        <section>
+            <div class="btn-section">
+                <button>All</button>
+                <button>Headphones</button>
+                <button>Mobiles</button>
+                <button>Laptops</button>
+            </div>
+            <div class="catalog">
+                <div class="item">
+                    <div class="product">
+                        <img src="headphone-gff4981ecf_640.png" alt="">
+                    </div>
+                    <button class="delete-btn btn">Delete</button>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
